@@ -1,20 +1,3 @@
-Machine Learning Project - NTUA (2024-25)
-
-🚀 Project Overview
-
-This repository contains my work for the first individual machine learning lab assignment at NTUA.
-
-⚠️ Note: This repository does not contain any course-provided solutions, datasets, or restricted content. The implementation details shared here are solely for reference and personal learning purposes.
-
-📌 Project Details
-
-Course: Machine Learning (NTUA, 2024-25)
-
-Student Name: Andreas Fotakis
-
-Student ID: 03121100
-
-Objective: Implementation of a machine learning pipeline including data preprocessing, model training, and evaluation.
 
 📖 Project Description
 
