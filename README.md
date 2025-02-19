@@ -1,60 +1,36 @@
+# 🌦️ Weather Prediction
 
-📖 Project Description
+This project focuses on developing a machine learning pipeline to predict weather conditions based on historical data. The primary objectives include data preprocessing, implementing various machine learning models, and evaluating their performance.
 
-This project focuses on the development of a machine learning pipeline to analyze a given dataset. The primary goal is to understand data preprocessing techniques, implement different machine learning models, and evaluate their effectiveness. The project follows a structured approach:
+## 📁 Project Structure
 
-Data Acquisition & Cleaning
+- `weather_pred.ipynb`: Jupyter Notebook containing the step-by-step implementation of the machine learning pipeline.
+- `train-val.csv`: Training and validation dataset used for model development.
+- `test.csv`: Test dataset used for evaluating the final model.
 
-Loading the dataset into a structured format.
+## 🛠️ Workflow
 
-Handling missing values and cleaning noisy data.
+1. **Data Acquisition & Cleaning**
+   - Load datasets (`train-val.csv` and `test.csv`) into structured formats.
+   - Handle missing values and clean noisy data to ensure data quality.
 
-Exploratory Data Analysis (EDA)
+2. **Exploratory Data Analysis (EDA)**
+   - Visualize feature distributions to understand data characteristics.
+   - Identify patterns and correlations among variables to inform feature selection.
 
-Understanding feature distributions through visualizations.
+3. **Feature Engineering & Selection**
+   - Encode categorical variables appropriately.
+   - Select relevant features that contribute significantly to the predictive model.
 
-Identifying patterns and correlations among variables.
+4. **Model Selection & Training**
+   - Compare various machine learning algorithms, including:
+     - Logistic Regression
+     - Decision Trees
+     - Support Vector Machines
+   - Fine-tune hyperparameters using cross-validation techniques to optimize model performance.
 
-Feature Engineering & Selection
+5. **Model Evaluation & Interpretation**
+   - Measure model performance using metrics such as accuracy, precision, recall, and F1-score.
+   - Interpret results to derive meaningful insights and assess model effectiveness.
 
-Encoding categorical variables.
-
-Selecting the most relevant features for model training.
-
-Model Selection & Training
-
-Comparing different machine learning algorithms such as Logistic Regression, Decision Trees, and Support Vector Machines.
-
-Fine-tuning hyperparameters using cross-validation techniques.
-
-Model Evaluation & Interpretation
-
-Measuring model performance using metrics like accuracy, precision, recall, and F1-score.
-
-Interpreting the results to derive meaningful insights from the data.
-
-
-📈 Methods & Approach
-
-Data Preprocessing:
-
-Loaded and cleaned dataset
-
-Handled missing values and categorical encoding
-
-Exploratory Data Analysis (EDA):
-
-Visualized distributions and relationships between features
-
-Model Selection & Training:
-
-Trained and evaluated multiple machine learning models
-
-Tuned hyperparameters for optimal performance
-
-Evaluation:
-
-Used appropriate performance metrics
-
-Analyzed model accuracy and generalization
 
